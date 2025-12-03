@@ -19,3 +19,34 @@ public class Exercise4_2 {
         }
     }
 }
+
+
+/*
+--------------------------------------------------------------------
+SORU 2: baffle ilk çağrıldığında blimp parametresi nedir?
+--------------------------------------------------------------------
+Cevap: "rattle"
+(main → zippo("rattle",13) → baffle("rattle"))
+
+--------------------------------------------------------------------
+SORU 3: Programın ürettiği çıktı
+--------------------------------------------------------------------
+ik
+rattle
+ping zoop
+boo -wa-ha-ha
+
+--------------------------------------------------------------------
+SORU 4: Hangi satırlar birden fazla kez çalıştı?
+--------------------------------------------------------------------
+Metot çağrıları:
+- zippo metodu 2 kere çalıştı:
+  1) zippo("rattle",13)
+  2) zippo("ping",-5)
+
+Çoklu tekrar eden satır yoktur.
+Her print satırı sadece 1 kez tetiklenir.
+
+Çalışma sırası: 1 → 2 → 3 → 4 → 5 → 6 → 7
+--------------------------------------------------------------------
+*/
