@@ -25,3 +25,29 @@ public class Exercise4_5 {
         System.out.println("any " + strangStrung + "more ");
     }
 }
+
+/*
+--------------------------------------------------------------------
+SORU 1: Kodun tam çıktısı
+--------------------------------------------------------------------
+just for
+any not more 
+It's 
+breakfast 
+!
+
+Açıklama:
+- main(): zoop("just for",5) → bob==5 → ping("not ") → "any not more"
+- main(): clink(2*buzz) → clink(4) → "It's " yazdırır
+- clink(): zoop("breakfast",4) → bob!=5 → else çalışır → "!" yazdırır
+
+--------------------------------------------------------------------
+SORU 2: zoop metodu ikinci kez çağrıldığında STACK DİYAGRAMI
+--------------------------------------------------------------------
+main
+ └── clink(4)
+       └── zoop("breakfast ", 4)
+
+bob = 4 olduğu için else kısmı çalışır → "!" yazdırılır
+--------------------------------------------------------------------
+*/
